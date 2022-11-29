@@ -128,9 +128,20 @@ function or(input1, input2) {
 // and("hello", "world")              // "world" (this behavior is non-obvious, research more)
 
 function and(input1, input2) {
-    return ;
+    return input1 && input2;
 }
 
+// Define a function named concat that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
+//
+// concat("code", "up")                // "codeup"
+// concat("connect", 4)                // "connect4"
+// concat("hello", "world")            // "helloworld"
+// concat(4, 2)                        // "42"
+// concat(true, true)                  // "truetrue"
 
-function concat(string1, string2){
+
+function concat(input1, input2){
+    return input1.toString() + input2.toString();
 }
+
+//'' input1 + input2
